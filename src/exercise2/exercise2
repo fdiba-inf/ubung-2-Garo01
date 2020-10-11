@@ -1,0 +1,31 @@
+package exercise2; 
+import java.util.Scanner;
+public class QuadraticEquation {
+  public static void main(String[]args){
+  Scanner input=new.Scanner (System.in); 
+  int a = input.nextInt();
+  int b = input.nextInt();
+  int c = input.nextInt(); 
+  int D = b*b-4*a*c ; 
+  if (a!=0) {
+    if (D>=0){ 
+      int D = Math.sqrt (D);
+      int x1 = (-b+D) / (2*a); 
+      int x2 = (-b-D) / (2*a) ; 
+      System.out.println ("x1"); 
+      System.out.println ("x2"); 
+    }else{ 
+      System.out.println ("Imaginary Values"); } 
+      else if (!b=0); {
+        int x3= (-c)/b ;
+        System.out.println ("x3");
+      } else if (!c=0) {
+        System.out.println ("Many values") ; }
+        else {
+          System.out.println ("No values");
+        }
+      }
+
+    }    
+} 
+  }
